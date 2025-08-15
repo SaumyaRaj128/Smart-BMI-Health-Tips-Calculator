@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Smart BMI & Health Tips Calculator</title>
+</head>
+<body style="background-color:#212121;color:#fff">
+    <div class="container">
+        <h1>Smart BMI & Health Tips Calculator</h1>
+        <form id="bmiForm">
+            <label>Height (cm): </label><input type="number" id="height" placeholder="Enter height" required>
+            <label>Weight (kg): </label><input type="number" id="weight" placeholder="Enter weight" required>
+            <button type="submit">Calculate BMI</button>
+            </form>
+
+            <div id="result" class="result"></div>
+            <div id="tip" class="tip"></div>
+            <h2>Previous BMI Records</h2>
+            <ul id="history"></ul>
+            
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
