@@ -54,8 +54,8 @@ Calculator/
 
 * Add keyboard support for calculations.
 * Implement scientific calculator features.
-* Add animations for better UX
-* Mobile-first enhancements
+* Add animations for better UX.
+* Mobile-first enhancements.
 
 ---
 
